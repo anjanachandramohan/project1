@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{                           
+    width: 100%;
+    height: 100vh;  
+    background-color: white
+    
+}
+
+.navbar{                  
+    display: flex;            
+    justify-content: space-between; 
+    width: 100%;
+    align-items: center; 
+    background-color: #d33434;
+}
+#logo{
+    width:200px;
+    margin-left: 100px;
+    
+    
+}
+.listitem{
+    display: inline-block;
+    list-style: none; 
+    margin: 20px 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.links{
+    text-decoration: none ;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.links:hover{
+    color: orangered;
+    
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/istockphoto-1162979062-170667a.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    
+
+}
+
+.title h1{
+   
+    margin-left: 120px;
+    font-size: 40px;
+    
+    text-align: center;
+    letter-spacing: -1px;
+    color: #CC3333;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    
+
+
+}
+
+.title p{
+    margin-left: 120px;
+    align-items: center;
+    font-size: 30px;
+    
+    text-align: center;
+    line-height: 1.2;
+    color: #595959;
+    
+    
+}
+#about{
+    
+    background-image: url(images/bgimage.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+}
+.heading h2{
+    margin-top: 6%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #CC3333;
+    font-size: 30px;
+
+}
+.about-details p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#about .about-box{
+    width: 95%;
+    margin: 0px 8% 0px 8%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+#about .about-box .about1{
+    width: 300px;
+    height: 400px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#about .about-box .about1 .about-image {
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#about .about-box .about1 .about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#about .about-box .about1 .about-info h2{
+    text-align: center;
+    padding-top: 10px;
+}
+#about .about-box .about1 .about-info p{
+    text-align: justify;
+    padding-top: 10px;
+}
+#menu{
+    
+    background-image: url(images/bgimage.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+}
+.heading1 h4{
+    margin-top: 6%;
+    text-align: center;
+    font-size: 30px;
+}
+.heading1 h3{
+    text-align: center;
+    color: #CC3333;
+    font-family: 'Lobster', cursive;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#menu .menu_box{
+    width: 95%;
+    margin: 0px 8% 0px 8%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#menu .menu_box .menu_card{
+    width: 300px;
+    height: 400px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+#menu .menu_box .menu_card .menu_image{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+#menu .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+#menu .menu_box .menu_card .menu_image:hover img{
+    transform:scale(1.1); 
+
+}
+
+
+#menu .menu_box .menu_card .menu_info h2{
+    text-align: center;
+    padding-top: 10px;
+}
+#menu .menu_box .menu_card .menu_info p{
+    text-align: justify;
+    padding-top: 10px;
+}
+#menu .menu_box .menu_card .menu_info h1{
+    text-align: center;
+    padding-top: 10px;
+}
+#menu .menu_box .menu_card .menu_info .menu_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: orange;
+    padding: 8px 10px;
+    margin: 0 100px;
+}
+
+
+#menu .menu_box .menu_btn1{
+   
+   
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #fd0707;
+    padding: 10px 20px;
+    margin-top: 30px;
+    
+
+}
+#reservation{
+     margin: 5% 8% 8% 8%;
+}
+.reserve h4{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #CC3333;
+font-size: 40px;
+}
+
+#reservation .reserve_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#reservation .reserve_main .reserve_image img{
+width: 600px;
+margin-top: 8%;
+}
+
+#reservation .reserve_main form{
+    
+    grid-gap: 0 10px;
+}
+
+#reservation .reserve_main form .input p{
+    line-height: 25px;
+
+}
+#reservation .reserve_main form .input{
+    margin: 5px;
+}
+#reservation .reserve_main form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+
+}
+#reservation .reserve_main form .reserve_btn{
+    padding: 5px 2px;
+    background: orange;
+    color: white;
+    width: 20%;
+    margin: 40%;
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+footer{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #eeeeee;
+}
+footer .footer-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+footer .footer-main .footer-tag{
+    text-align: center;
+}
+footer .footer-main .footer-tag h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #000;
+}
+footer .footer-main .footer-tag p{
+    margin: 10px 0;
+}
+footer .footer-main .footer-tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+footer .footer-main .footer-tag i:hover{
+    color: orange;
+} 
